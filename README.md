@@ -11,42 +11,41 @@ clone this repository to local and type "npm install" to install packeges that i
 
 1.to create new task use below route with below payload 
  payload =  {title"user data",description:"user data"}
-# POST method - http://localhost:8080/taskapp/createtask
+POST method - http://localhost:8080/taskapp/createtask
 
 
 
 2.to update task use below route with payload 
  payload {id:"task object id",title"user data",description:"user data"} or {id:"task object id",title"user data"} 
  or {id:"task object id"description:"user data"}
-# PUT method - http://localhost:8080/taskapp/updatetask
+PUT method - http://localhost:8080/taskapp/updatetask
 
 
 
 3.to get task from the database use below route
-# GET method - http://localhost:8080/taskapp/gettask/:id
+GET method - http://localhost:8080/taskapp/gettask/:id
 the id param is should be object id
 
 
 
 4.to get all tasks from the database use below route
-# GET method - http://localhost:8080/taskapp/getalltask
+GET method - http://localhost:8080/taskapp/getalltask
 
 
 
 5.to delete specific task use below route 
-# DELETE method http://localhost:8080/taskapp/deletetask/:id
+DELETE method http://localhost:8080/taskapp/deletetask/:id
 the id param is should be object id
 
 6.to delete all tasks use below route
-# DELETE method - http://localhost:8080/taskapp/deletealltask
+DELETE method - http://localhost:8080/taskapp/deletealltask
 
 
 7.to mark any task as completed use below route
-
-# PUT method - http://localhost:8080/taskapp/updatetaskcompletion
+PUT method - http://localhost:8080/taskapp/updatetaskcompletion
 
 8.to get only completed tasks use below route
-# GET - http://localhost:8080/taskapp/completed/:val
+GET - http://localhost:8080/taskapp/completed/:val
 where the "val" param is of type 'boolean'
 
 I used the standard way of code structure as it follows "MVC" structure which refers to model,view,controller
