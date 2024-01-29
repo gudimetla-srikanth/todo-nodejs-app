@@ -5,7 +5,7 @@ application name - todo-tasks
 
 # starting of project
 
-clone this repository to local and type "npm install" to install packeges that i have used.Run "npm start" automatically the application will start running in the specified port number
+clone this repository to local and type "npm install" to install packages that i have used.Run "npm start" automatically the application will start running in the specified port number
 
 # CRUD operations routes names
 
